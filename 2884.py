@@ -1,25 +1,8 @@
-a,b=map(int,input().split())
-c = 60
+hour, min = map(int,input().split())
 
-if(b<45):
-    if(a==0):
-        a = 23
-        b -= 45
-        b = c + b
-        print(a, b)
-    else:
-        a -= 1
-        b -= 45
-        b = c + b
-        print(a, b)
+if min >= 45:
+    print(hour, min-45)
+elif hour>0 and min < 45:
+    print(hour-1, min+15)
 else:
-    if(a==0):
-        a = 23
-        b -= 45
-        print(a, b)
-    else:
-        a -= 1
-        b -= 45
-        print(a, b)
- 
-
+    print(23, min+15)
