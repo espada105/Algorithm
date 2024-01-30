@@ -1,4 +1,10 @@
-n = int(input())
-for i in range(n):
-    number = map(int,input().split())
-    print(number)
+# import sys
+# input = sys.stdin.readline
+
+# n = int(input())
+
+# student = []
+
+# for i in range(n):
+
+

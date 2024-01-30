@@ -1,5 +1,5 @@
-n = list(map(int, input().split()))  # Convert input to a list of integers
-sorted_n = sorted(n)  # Create a sorted version of the list
+n = list(map(int, input().split()))
+sorted_n = sorted(n)
 
 if n == sorted_n:
     print('ascending')
