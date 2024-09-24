@@ -5,8 +5,8 @@ def solution(s):
     
     s.sort(key=len)
     
-    answer = []
-    for group in s:
-        answer.append((group - set(answer)).pop())
+    result = []
+    for i in s:
+        result.append((i - set(result)).pop())
     
-    return answer
+    return result
