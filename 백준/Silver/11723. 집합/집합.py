@@ -1,6 +1,5 @@
 import sys
 
-# 입출력 속도 향상을 위한 설정
 input = sys.stdin.readline
 print = sys.stdout.write
 
