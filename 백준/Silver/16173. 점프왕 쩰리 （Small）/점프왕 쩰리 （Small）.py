@@ -4,7 +4,7 @@ n = int(input())
 graph = [list(map(int, input().split())) for _ in range(n)]
 dx = [1, 0]
 dy = [0, 1]
-visited = [[0] * n for _ in range(n)]
+
 bfs_visited = [[0] * n for _ in range(n)]
 
 
